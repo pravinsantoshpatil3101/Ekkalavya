@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useState } from "react";
 
 export default function ForgotPassword() {
@@ -37,9 +38,9 @@ export default function ForgotPassword() {
 
         <p className="mt-6 text-center text-sm text-gray-600">
           Remembered your password?{" "}
-          <a href="/login" className="font-medium text-indigo-600 hover:underline">
+          <Link href="/login" className="font-medium text-indigo-600 hover:underline">
             Login
-          </a>
+          </Link>
         </p>
       </div>
     </div>
