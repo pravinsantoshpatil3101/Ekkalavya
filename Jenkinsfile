@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/username/repo.git'
+                git branch: 'master', url: 'https://github.com/pravinsantoshpatil3101/Ekkalavya.git'
             }
         }
 
